@@ -4,10 +4,13 @@
   "description": "![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)",
   "main": "index.js",
   "scripts": {
-    "server": "cd server && npm run watch",
-    "client": "cd client && npm start",
-    "watch": "",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "npm run server & npm run client",
+    "test": "npm run test --prefix server && npm run test --prefix client"
   },
   "repository": {
     "type": "git",
