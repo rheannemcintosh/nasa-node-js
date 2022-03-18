@@ -1,0 +1,20 @@
+{
+  "name": "nasa-node-js",
+  "version": "1.0.0",
+  "description": "![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rheannemcintosh@github.com/rheannemcintosh/nasa-node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rheannemcintosh/nasa-node-js/issues"
+  },
+  "homepage": "https://github.com/rheannemcintosh/nasa-node-js#readme"
+}
