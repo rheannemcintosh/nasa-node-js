@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/rheannemcintosh/nasa-node-js/issues"
   },
-  "homepage": "https://github.com/rheannemcintosh/nasa-node-js#readme"
+  "homepage": "https://github.com/rheannemcintosh/nasa-node-js#readme",
+  "devDependencies": {
+    "supertest": "^6.2.2"
+  }
 }
