@@ -17,7 +17,7 @@ function httpAddNewLaunch(req, res) {
         !launch.launchDate ||
         !launch.target
     ) {
-        return res.staus(400).json({
+        return res.status(400).json({
             error: 'Missing required launch data',
         });
     }
