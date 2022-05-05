@@ -27,5 +27,8 @@
   "homepage": "https://github.com/rheannemcintosh/nasa-node-js#readme",
   "devDependencies": {
     "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "mongoose": "^6.3.2"
   }
 }
