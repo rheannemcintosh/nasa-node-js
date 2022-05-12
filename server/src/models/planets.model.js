@@ -25,7 +25,9 @@ function loadPlanetsData() {
             }))
             .on('data', async (data) => {
                 if (isHabitablePlanet(data)) {
-                    await planets.create(data);
+                    await planets.create({
+                        keplerName: data.kepler_name,
+                    });
                     // habitablePlanets.push(data);
                 }
             })
