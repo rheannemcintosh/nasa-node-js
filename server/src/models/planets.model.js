@@ -23,9 +23,10 @@ function loadPlanetsData() {
                 comment: '#',
                 columns: true,
             }))
-            .on('data', (data) => {
+            .on('data', async (data) => {
                 if (isHabitablePlanet(data)) {
-                    habitablePlanets.push(data);
+                    await planets.create(data);
+                    // habitablePlanets.push(data);
                 }
             })
             .on('error',(err) => {
